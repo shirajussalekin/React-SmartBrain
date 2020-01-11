@@ -81,7 +81,7 @@ app.post('/register', (req, res) => {
                 res.status(400).json('Use alternate email');
             }
     } else {
-        res.json('');
+        res.json('Wrong information');
     }
 });
 
